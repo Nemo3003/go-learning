@@ -35,3 +35,13 @@ func yearsUntilEvents(age int)(
   }
   return yearsUntilAdult, yearsUntilDrinking, yearsUntilCarRental
 }
+
+var result int
+func divide(dividend, divisor int)int{
+  if divisor == 0{
+    result = 0
+    return result
+  }
+  result = dividend/divisor
+  return  result
+}

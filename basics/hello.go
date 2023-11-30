@@ -80,6 +80,9 @@ func main() {
 	} else {
 		fmt.Println(num, "has multiple digits")
 	}
+// Since both files (hello and functions) are in the same directory
+// we can call them both without the need to exporting them
+	functions()
 
-
+	yearsUntilEvents(23)
 }

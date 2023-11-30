@@ -87,4 +87,8 @@ func main() {
 	yearsUntilEvents(23)
 
 	divide(23,10)
+
+	mainStructs()
+
+	mainInterfaces()
 }
